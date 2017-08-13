@@ -2,29 +2,27 @@ example from: https://github.com/noise/snapstore
 
 > ## Server setup (with snappy)
 >
-> `snap install snapstore-example`
+> 1. `snap install snapstore-example`
 >
 >It will be run as a daemon on the default port 5000.
 >
 > ## Server setup (manual)
 >
-> Install python-virtualenv.
+> ### Install python-virtualenv. (3.g. on Ubuntu 16.04)
 >
-> E.g. on Ubuntu 16.04:
+> 1. `sudo apt install python-virtualenv`
 >
-> `sudo apt install python-virtualenv`
+> ### Clone this repo:
 >
-> Clone this repo:
->
-> `git clone https://github.com/noise/snapstore.git`
+> 2. `git clone https://github.com/noise/snapstore.git`
 > cd snapstore
 >
-> Setup virtualenv and install dependencies:
+> ### Setup virtualenv and install dependencies:
 >
-> `virtualenv env`  
-> `. env/bin/activate`  
-> `pip install -r requirements.txt`  
+> 3. `virtualenv env`  
+> 4. `. env/bin/activate`  
+> 5. `pip install -r requirements.txt`  
 > 
-> Run it:
+> ### Run it:
 >
-> `python store.py`
+> 6. `python store.py`
